@@ -206,7 +206,6 @@
 
 #include <stdlib.h>
 #include <mbed.h>
-#define max(a,b) (((a) > (b)) ? (a) : (b))
 #define constrain(amt,low,high) ((amt)<(low)?(low):((amt)>(high)?(high):(amt)))
 #define LOW false
 #define HIGH true
